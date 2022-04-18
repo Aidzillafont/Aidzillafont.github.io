@@ -13,6 +13,7 @@ The dataset for this exploration was taken from the popular website kaggle see [
 This data contains 5 features and 3 exam scores.
 
 ### Features
+
 | Name | Description | Type |
 | :------ | :------ | :------ |
 | gender | male or female | object |
