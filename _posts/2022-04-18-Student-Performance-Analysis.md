@@ -462,7 +462,7 @@ A quick review of the above we can make some of the following observations, in t
 *   Group A perform poorly where Group E are on average score the highest
 *   The higher your parents education is the higher yours should be.
 *   Students who received a free/reduced lunch performed worse than those who received a standard lunch.
-*   Students who dis a test preparation course performed better in exams.
+*   Students who did a test preparation course performed better in exams.
 
 Lets try an visualize some of these patterns in a few visualizations
 
