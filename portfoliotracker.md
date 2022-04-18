@@ -2,6 +2,10 @@
 layout: page
 title: PortfolioTracker
 subtitle: Keep on top of your portfolio the easy way
+gh-repo: Aidzillafont/PortfolioTracker
+gh-badge: [star, fork, follow]
+tags: [projects, finance]
+comments: true
 ---
 
 PortfolioTracker is a free and open source portfolio tracking tool. It enables you to create your on database and manage your trades on multiple portfolios with ease. 
