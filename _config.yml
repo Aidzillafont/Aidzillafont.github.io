@@ -16,7 +16,7 @@ author: Aidan Heffernan
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - PortforlioTracker: "portfoliotracker"
+    - PortforlioTracker: "projects/portfoliotracker"
     - Student Performance: "https://github.com/Aidzillafont/Student-Performace-"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
