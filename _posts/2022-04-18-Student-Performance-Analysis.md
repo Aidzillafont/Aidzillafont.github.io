@@ -486,23 +486,23 @@ for feat in features:
 ```
 
 
-![png](assets/img/Student_Performance_Analysis_files/Student_Performance_Analysis_10_0.png)
+![png](/assets/img/Student_Performance_Analysis_files/Student_Performance_Analysis_10_0.png)
 
 
 
-![png](Student_Performance_Analysis_files/Student_Performance_Analysis_10_1.png)
+![png](/assets/img/Student_Performance_Analysis_files/Student_Performance_Analysis_10_1.png)
 
 
 
-![png](Student_Performance_Analysis_files/Student_Performance_Analysis_10_2.png)
+![png](/assets/img/Student_Performance_Analysis_files/Student_Performance_Analysis_10_2.png)
 
 
 
-![png](Student_Performance_Analysis_files/Student_Performance_Analysis_10_3.png)
+![png](/assets/img/Student_Performance_Analysis_files/Student_Performance_Analysis_10_3.png)
 
 
 
-![png](Student_Performance_Analysis_files/Student_Performance_Analysis_10_4.png)
+![png](/assets/img/Student_Performance_Analysis_files/Student_Performance_Analysis_10_4.png)
 
 
 The above plots vizualize the spread of scores for each subject across each variable. As we can see here even though we observerd different means there is a lot of overlap. This suggests that given you may have features that should reduce your score you can over come it.
@@ -996,7 +996,7 @@ plot = sns.boxplot(x='prep and lunch',hue='exam type', y='score', data=df_melt2)
 ```
 
 
-![png](Student_Performance_Analysis_files/Student_Performance_Analysis_17_0.png)
+![png](/assets/img/Student_Performance_Analysis_files/Student_Performance_Analysis_17_0.png)
 
 
 As can be seen from the above plot people who have improved there lunch and taken an test preparation course have seen better results according to the data set.
