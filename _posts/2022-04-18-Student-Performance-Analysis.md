@@ -405,7 +405,7 @@ df.describe()
 
 
 
-As can be seen there is a number of scores on math, reading and writing. These are for varing types of people. Lets aggregate some of the groups to see if there is an things standing out.
+As can be seen there is a number of scores on maths, reading and writing. These are for varying types of people. Lets aggregate some of the groups to see if there is an things standing out.
 
 
 ```python
@@ -461,14 +461,14 @@ A quick review of the above we can make some of the following observations, in t
 *   Women score on average higher than men in every subject excluding maths
 *   Group A perform poorly where Group E are on average score the highest
 *   The higher your parents education is the higher yours should be.
-*   Students who recieved a free/reduced lunch performed worse than those who recived a standard lunch.
+*   Students who received a free/reduced lunch performed worse than those who received a standard lunch.
 *   Students who dis a test preparation course performed better in exams.
 
-Lets try an viszualize some of these patterns in a few vizualizations
+Lets try an visualize some of these patterns in a few visualizations
 
 
 
-## Vizualizations
+## Visualizations
 
 
 ```python
@@ -476,7 +476,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 #targets = ['math score', 'reading score', 'writing score']
 
-#frist we need to melt the data set to pass to out seaborn box plot
+#first we need to melt the data set to pass to out seaborn box plot
 df_melt = pd.melt(df, id_vars=features, var_name='exam type', value_name='score')
 
 for feat in features:
@@ -505,7 +505,7 @@ for feat in features:
 ![png](/assets/img/Student_Performance_Analysis_files/Student_Performance_Analysis_10_4.png)
 
 
-The above plots vizualize the spread of scores for each subject across each variable. As we can see here even though we observerd different means there is a lot of overlap. This suggests that given you may have features that should reduce your score you can over come it.
+The above plots visualize the spread of scores for each subject across each variable. As we can see here even though we observed different means there is a lot of overlap. This suggests that given you may have features that should reduce your score you can over come it.
 
 However if you have every thing against you or everything for you this does seem to have a clear indication of performance.
 below we can see results of the students with the worst set of features vs those with the best. Here you can see a clear separation
@@ -815,7 +815,7 @@ df_best
 
 
 
-Its worth noteing that alot of these features are out of ones control. In fact the only two that a prospective student can control is their lunch and test course preperation. So lets look at the combined effect of these in some plots and groupings and see how the seperate a students performance
+Its worth noting that a lot of these features are out of the students control. In fact the only two that a prospective student can control is their lunch and test course preparation. So lets look at the combined effect of these in some plots and groupings and see how the separate a students performance
 
 
 
@@ -1003,7 +1003,7 @@ As can be seen from the above plot people who have improved there lunch and take
 
 ## Build a Pipeline and Model
 
-Now we have done our EDA showing how all of the feature variables separate performance of students lets build a model to predict performance of a student in the math subject.
+Now we have done our EDA showing how all of the feature variables separate performance of students lets build a model to predict performance of a student in the maths subject.
 
 First we need to make a test train split
 
@@ -1066,7 +1066,7 @@ mean_absolute_error(preds,y_test)
 
 
 
-Here we can see our model gets a RMSE of 13.66 and 16.35 on train and test respectivly. This means our model was on average predicting a score around 16 precentage points away from our true score.
+Here we can see our model gets a absolute error of 11.1 and 10.69 on train and test respectively. This means our model was on average predicting a score around 11 percentage points away from our true score.
 
 
 Lets change our regression problem into a classification problem by changing scores to grades following the below schema
@@ -1151,16 +1151,16 @@ here we get an accuracy score of 53% which is only slightly better than guessing
 
 ## Conclusions
 
-Where the random forest model did not perfporm as well as hoped we can certianly look to investigate more predictive models in the future.
+Where the random forest model did not perform as well as hoped we can certainly look to investigate more predictive models in the future.
 
-As for inslights to the data they are summarised by:
+As for insights to the data they are summarised by:
 
 *   Women score on average higher than men in every subject excluding maths
 *   Group A perform poorly where Group E are on average score the highest
 *   The higher your parents education is the higher yours should be.
-*   Students who recieved a free/reduced lunch performed worse than those who recived a standard lunch.
-*   Students who dis a test preparation course performed better in exams.
+*   Students who received a free/reduced lunch performed worse than those who received a standard lunch.
+*   Students who did a test preparation course performed better in exams.
 
-We saw these by looking at some barplots using seaborn along with some groupby in pandas
+We saw these by looking at some bar-plots using seaborn along with some groupby in pandas
 
 If you would like to check out this notebook yourself please take a look at my [github](https://github.com/Aidzillafont/Student-Performace-)
