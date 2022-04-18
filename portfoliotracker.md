@@ -19,6 +19,6 @@ The database consists of various linked tables described in the below ER diagram
 Trades are loaded to the trades table and this creates new portfolios and assets if they don't exist. 
 Prices are loaded to the prices table. From there you can start extracting reports using the python object PortfolioTracker
 
-![ER Diagram](https://github.com/Aidzillafont/PortfolioTracker/blob/caccfa746857eb501060b1da32c25e17a500c778/PortfolioTracker.png)
+![ER Diagram](https://github.com/Aidzillafont/PortfolioTracker/blob/main/PortfolioTracker.png)
 
 
