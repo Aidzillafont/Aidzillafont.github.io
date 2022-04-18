@@ -14,6 +14,8 @@ This data contains 5 features and 3 exam scores.
 
 ### Features
 
+The features are as follows: 
+
 | Name | Description | Type |
 | :------ | :------ | :------ |
 | gender | male or female | object |
