@@ -14,12 +14,12 @@ This data contains 5 features and 3 exam scores.
 
 ### Features
 | Name | Description | Type |
-| :------ |:--- | :--- |
+| :------ | :------ | :------ |
 | gender | male or female | object |
 | race/ethnicity | Groups A-E | object |
-| parental level of education | how educated were the students parents?  | object |
-| lunch | whether the student got a free/reduced or standard lunch | object |
-| test preparation course | completed or none done at all? | object |
+| parental level of education | how educated were the students parents  | object |
+| lunch | whether the student got a reduced or standard lunch | object |
+| test preparation course | completed or none done at all | object |
 
 ### Exam Scores
 * math score (0-100)
