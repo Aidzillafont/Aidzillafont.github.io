@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: PortfolioTracker
 subtitle: Keep on top of your portfolio the easy way
 gh-repo: Aidzillafont/PortfolioTracker
