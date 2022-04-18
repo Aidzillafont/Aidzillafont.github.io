@@ -486,7 +486,7 @@ for feat in features:
 ```
 
 
-![png](Student_Performance_Analysis_files/Student_Performance_Analysis_10_0.png)
+![png](assets/img/Student_Performance_Analysis_files/Student_Performance_Analysis_10_0.png)
 
 
 
