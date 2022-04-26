@@ -6,6 +6,7 @@ gh-repo: Aidzillafont/Student-Performace-
 gh-badge: [star, fork, follow]
 tags: [EDA, Data Science]
 share-img: /assets/img/Student_Performance_Analysis_files/study_img.png
+thumbnail-img: /assets/img/Student_Performance_Analysis_files/study_img.png
 comments: true
 ---
 
