@@ -5,7 +5,6 @@ subtitle: What helps get good grades?
 gh-repo: Aidzillafont/Student-Performace-
 gh-badge: [star, fork, follow]
 tags: [EDA, Data Science]
-cover-img: /assets/img/Student_Performance_Analysis_files/study_img.png
 share-img: /assets/img/Student_Performance_Analysis_files/study_img.png
 comments: true
 ---
