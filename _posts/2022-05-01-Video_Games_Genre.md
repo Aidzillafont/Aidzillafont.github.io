@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Visualizations of Video Games sales and features using plotly and pandas
-subtitle: What helps get good grades?
+title: Visualizations of Video Games sales and features
+subtitle: Using visualizations to explore video game data using plotly and pandas
 gh-repo: https://github.com/Aidzillafont/Video-Games-
 gh-badge: [star, fork, follow]
 tags: [EDA, Data Science, plotly, pandas]
