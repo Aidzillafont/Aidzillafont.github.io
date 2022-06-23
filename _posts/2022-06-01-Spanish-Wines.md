@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rating wine using a Random Forest
-subtitle: Rating wine using a Random Forest
+subtitle: Wine not look at the data behind wine?
 gh-repo: https://github.com/Aidzillafont/Spanish-Wine-
 gh-badge: [star, fork, follow]
 tags: [Data Science, sns, pandas, Random Forest, Categorical]
