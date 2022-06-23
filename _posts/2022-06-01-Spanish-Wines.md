@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visualizations of Video Games sales and features
+title: Rating wine using a Random Forest
 subtitle: Rating wine using a Random Forest
 gh-repo: https://github.com/Aidzillafont/Spanish-Wine-
 gh-badge: [star, fork, follow]
@@ -61,7 +61,7 @@ print(df.dtypes, df.describe(), df.head(), sep='\n------------------\n')
     4  Ribera del Duero  778.06  Ribera Del Duero Red   5.0      3.0  
 
 
-Lets look at the numerical variables first and how they correlate with each other and rating. Ideally we would like high correlation with rating and low correlation between predictors. If we have high correlation __(|0.9| or more)__ between predictors we would need to investigate and eliminate  some since they possibly explain the same thing or in statistical terms if they are collinear.
+Lets look at the numerical variables first and how they correlate with each other and rating. Ideally we would like high correlation with rating and low correlation between predictors. If we have high correlation __(0.9 or more)__ between predictors we would need to investigate and eliminate  some since they possibly explain the same thing or in statistical terms if they are collinear.
 
 Here we can see the year is stored as an object so lets convert that to a int64. There is number of years with 'N.V.' and nan as their value so lets drop them so we can check years correlation
 
